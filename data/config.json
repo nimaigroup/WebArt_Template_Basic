@@ -1,0 +1,40 @@
+{
+  "flags": {
+    "theme": "dark",
+    "preloader": false,
+    "allAudio": false,
+    "bgVisuals": true,
+    "logo": true,
+    "headSocials": true,
+    "jumbotron": false,
+    "carousel1": true,
+    "carousel2": false,
+    "footer": true
+  },
+  "themeSchemes": {
+    "dark": {
+      "primaryBg": "#0a0a0c",
+      "secondaryBg": "#16161a",
+      "textColor": "#fffffe",
+      "accentColor": "#7f5af0",
+      "cardBg": "#242629"
+    },
+    "light": {
+      "primaryBg": "#f8f9fa",
+      "secondaryBg": "#ffffff",
+      "textColor": "#0f172a",
+      "accentColor": "#6366f1",
+      "cardBg": "#ffffff"
+    }
+  },
+  "fonts": {
+    "primary": "Inter, system-ui, sans-serif",
+    "display": "Space Grotesk, sans-serif",
+    "importUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap"
+  },
+  "footer": {
+    "showCopyright": true,
+    "showFootSocials": true,
+    "showQuickLinks": true
+  }
+}

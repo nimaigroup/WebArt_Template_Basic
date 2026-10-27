@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebArt Canvas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link id="dynamicFontLink" rel="stylesheet" href="">
+</head>
+<body>
+
+<!-- PRELOADER -->
+<div id="preloader" class="preloader" style="display: none;">
+    <div class="preloader-inner">
+        <h1 id="loaderTitle" class="loader-title"></h1>
+        <p id="loaderSub" class="loader-sub"></p>
+        <button id="loaderBtn" class="loader-btn" style="display: none;"></button>
+    </div>
+</div>
+
+<!-- BACKGROUND VISUALS -->
+<div id="bgVisuals" class="bg-visuals" aria-hidden="true" style="display: none;">
+    <div id="bgLayerA" class="bg-layer"></div>
+    <div id="bgLayerB" class="bg-layer"></div>
+    <div id="bgOverlay" class="bg-overlay"></div>
+    <video id="bgVideo" class="bg-video" playsinline muted loop style="display: none;"></video>
+</div>
+
+<!-- SITE HEADER -->
+<header id="siteHeader" class="site-header">
+    <div class="header-inner">
+        <a id="logoLink" class="logo-link" href="#" style="display: none;">
+            <img id="logoImg" class="logo-img" src="" alt="">
+        </a>
+
+        <div class="brand-meta">
+            <h1 id="siteTitle" class="site-title"></h1>
+            <p id="siteTagline" class="site-tagline"></p>
+        </div>
+
+        <button id="navToggle" class="nav-toggle" aria-label="Toggle Navigation" aria-expanded="false">
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+        </button>
+    </div>
+
+    <nav id="navDrawer" class="nav-drawer" aria-hidden="true">
+        <ul id="navLinks" class="nav-links"></ul>
+        <div id="headSocials" class="social-links head-socials" style="display: none;"></div>
+    </nav>
+</header>
+
+<!-- JUMBOTRON -->
+<aside id="jumbotron" class="jumbotron" style="display: none;">
+    <div class="jumbotron-inner">
+        <span id="jumbotronText" class="jumbotron-text"></span>
+        <a id="jumbotronCta" class="jumbotron-cta" href="#"></a>
+    </div>
+</aside>
+
+<!-- MAIN CANVAS CONTENT -->
+<main id="mainContent" class="main-content">
+
+    <!-- CAROUSEL 1 -->
+    <section id="carousel1Section" class="carousel-section" style="display: none;">
+        <h2 id="carousel1Title" class="section-title"></h2>
+        <div class="carousel-wrapper">
+            <div id="carousel1Track" class="carousel-track"></div>
+        </div>
+    </section>
+
+    <!-- CAROUSEL 2 -->
+    <section id="carousel2Section" class="carousel-section" style="display: none;">
+        <h2 id="carousel2Title" class="section-title"></h2>
+        <div class="carousel-wrapper">
+            <div id="carousel2Track" class="carousel-track"></div>
+        </div>
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer id="footer" class="site-footer" style="display: none;">
+    <div class="footer-inner">
+        <div id="quickLinks" class="quick-links"></div>
+        <div id="footSocials" class="social-links foot-socials"></div>
+        <p id="copyright" class="copyright"></p>
+    </div>
+</footer>
+
+<!-- MANDATORY SIGNATURE -->
+<section id="nimaiSM" class="nimai-sm">
+    <a id="nimaiSMLink" class="nimai-sm-link" href="#" target="_blank" rel="noopener noreferrer">
+        <span id="nimaiSMText"></span>
+    </a>
+</section>
+
+<script src="js/app.js"></script>
+</body>
+</html>

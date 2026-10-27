@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "title": "WebArt Canvas",
+    "tagline": "Minimalist Digital Experience"
+  },
+  "logo": {
+    "url": "https://placehold.co/120x40/6366f1/ffffff?text=WebArt",
+    "alt": "WebArt Canvas Mark"
+  },
+  "headSocials": [
+    { "name": "YouTube", "url": "https://yt.sasara.me" },
+    { "name": "Instagram", "url": "https://ig.sasara.me" }
+  ],
+  "carousel1": {
+    "title": "Featured Gallery",
+    "slides": [
+      {
+        "id": "c1S1",
+        "img": "https://picsum.photos/id/1025/800/450",
+        "title": "Visual Movement I",
+        "sub": "Generative geometry and color study",
+        "url": "#"
+      },
+      {
+        "id": "c1S2",
+        "img": "https://picsum.photos/id/1062/800/450",
+        "title": "Visual Movement II",
+        "sub": "Organic textures and light dynamics",
+        "url": "#"
+      },
+      {
+        "id": "c1S3",
+        "img": "https://picsum.photos/id/1069/800/450",
+        "title": "Visual Movement III",
+        "sub": "Spatial balance and depth analysis",
+        "url": "#"
+      },
+      {
+        "id": "c1S4",
+        "img": "https://picsum.photos/id/1084/800/450",
+        "title": "Visual Movement IV",
+        "sub": "Minimalist form exploration",
+        "url": "#"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "WebArt Canvas. All rights reserved.",
+    "footSocials": [
+      { "name": "GitHub", "url": "https://github.com" }
+    ],
+    "quickLinks": [
+      { "label": "Gallery", "url": "#carousel1" }
+    ]
+  },
+  "nimaiSM": {
+    "text": "Another NIMAI GROUP WebArt Masterpiece℠",
+    "url": "https://sasaRA.me"
+  }
+}
